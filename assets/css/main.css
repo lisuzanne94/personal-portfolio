@@ -749,7 +749,7 @@ input, select, textarea {
 		}
 
 		.row > .col-4 {
-			width: 33.33333%;
+			width: 25%;
 		}
 
 		.row > .off-4 {
@@ -992,7 +992,7 @@ input, select, textarea {
 				}
 
 				.row > .col-4-xlarge {
-					width: 33.33333%;
+					width: 25%;
 				}
 
 				.row > .off-4-xlarge {
@@ -1171,6 +1171,7 @@ input, select, textarea {
 
 			.row {
 				display: flex;
+				justify-content: space-around;
 				flex-wrap: wrap;
 				box-sizing: border-box;
 				align-items: stretch;
@@ -1237,7 +1238,7 @@ input, select, textarea {
 				}
 
 				.row > .col-4-large {
-					width: 33.33333%;
+					width: 25%;
 				}
 
 				.row > .off-4-large {
@@ -1482,7 +1483,7 @@ input, select, textarea {
 				}
 
 				.row > .col-4-medium {
-					width: 33.33333%;
+					width: 25%;
 				}
 
 				.row > .off-4-medium {
@@ -1727,7 +1728,7 @@ input, select, textarea {
 				}
 
 				.row > .col-4-small {
-					width: 33.33333%;
+					width: 25%;
 				}
 
 				.row > .off-4-small {
@@ -1972,7 +1973,7 @@ input, select, textarea {
 				}
 
 				.row > .col-4-xsmall {
-					width: 33.33333%;
+					width: 10%;
 				}
 
 				.row > .off-4-xsmall {
@@ -2036,7 +2037,7 @@ input, select, textarea {
 				}
 
 				.row > .col-12-xsmall {
-					width: 100%;
+					width: 50%;
 				}
 
 				.row > .off-12-xsmall {
@@ -2474,15 +2475,15 @@ input, select, textarea {
 			border-radius: 100%;
 			cursor: default;
 			display: inline-block;
-			height: 6em;
-			line-height: 5.65em;
+			height: 4em;
+			line-height: 1em;
 			margin: 0 0 2em 0;
 			text-align: center;
-			width: 6em;
+			width: 4em;
 		}
 
 			.icon.major:before {
-				font-size: 2.25em;
+				font-size: 1em;
 			}
 
 			.icon.major.alt {
@@ -2506,6 +2507,7 @@ input, select, textarea {
 					color: #272833 !important;
 					text-shadow: 1px 0 0 #ffffff, -1px 0 0 #ffffff, 0 1px 0 #ffffff, 0 -1px 0 #ffffff;
 				}
+
 
 /* Image */
 
@@ -4039,6 +4041,7 @@ input, select, textarea {
 				-ms-transform: translateX(0);
 				transform: translateX(0);
 			}
+
 
 		/* Footer */
 
